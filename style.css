@@ -28,14 +28,12 @@
   -webkit-transform: translateZ(100px);
   background-color:#f8cc0f;
 }
-
 .back {
   transform: translateZ(-100px) rotateY(180deg);
   -webkit-transform: translateZ(-100px) rotateY(180deg);
   -ms-transform: translateZ(-100px) rotateY(180deg);
   background-color:#4db849;
 }
-
 .right {
   transform: rotateY(-270deg) translateX(100px);
   -ms-transform: rotateY(-270deg) translateX(100px);
@@ -45,7 +43,6 @@
   -webkit-transform-origin: top right;
   background-color:#e8483f;
 }
-
 .left {
   transform: rotateY(270deg) translateX(-100px);
   -webkit-transform: rotateY(270deg) translateX(-100px);
