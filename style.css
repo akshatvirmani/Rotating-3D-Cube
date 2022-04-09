@@ -52,7 +52,6 @@
   -webkit-transform-origin: center left;
   background-color:#ffa6a6;
 }
-
 .top {
   transform: rotateX(-270deg) translateY(-100px);
   -webkit-transform: rotateX(-270deg) translateY(-100px);
@@ -62,7 +61,6 @@
   -webkit-transform-origin: top center;
   background-color:#000;
 }
-
 .bottom {
   transform: rotateX(270deg) translateY(100px);
   -webkit-transform: rotateX(270deg) translateY(100px);
@@ -78,7 +76,6 @@
     -ms-transform: rotateX(0deg) rotateY(0deg);
     -webkit-transform: rotateX(0deg) rotateY(0deg);
   }
-
   to {
     transform: rotateX(360deg) rotateY(360deg);
     -ms-transform: rotateX(360deg) rotateY(360deg);
@@ -92,14 +89,12 @@
     -ms-transform: rotateX(0deg) rotateY(0deg);
     -webkit-transform: rotateX(0deg) rotateY(0deg);
   }
-
   to {
     transform: rotateX(360deg) rotateY(360deg);
     -ms-transform: rotateX(360deg) rotateY(360deg);
     -webkit-transform: rotateX(360deg) rotateY(360deg);
   }
 }
-
 .cube {
   animation: rotate 20s infinite linear;
   -webkit-animation: rotate 20s infinite linear;
